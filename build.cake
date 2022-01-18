@@ -6,8 +6,8 @@
 
 var target = Argument("target", "Publish");
 var packageVersion = Argument("packageVersion", "0.94.0");
-var url = Argument("url", "https://github.com/Dr-Noob/cpufetch/releases/download/v0.94/cpufetch_x86_windows.exe");
-var url64bit = Argument("url64bit", string.Empty);
+var url = Argument("url", "https://github.com/Dr-Noob/cpufetch/releases/download/v1.00/cpufetch_x86_windows.exe");
+var url64bit = Argument("url64bit", "https://github.com/Dr-Noob/cpufetch/releases/download/v1.00/cpufetch_x86-64_windows.exe");
 var binDir = Argument("binDir", "bin");
 var tempDir = Argument("tempDir", "temp");
 
